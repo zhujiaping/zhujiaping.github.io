@@ -500,13 +500,13 @@ span.round-tabs.five {
 }
 
 #testimonial-main .overlay {
-	padding-top: 60px;
-	background: rgba(0, 0, 0, 0.80);
+	padding-top: 10px;
+	background: rgba(0, 0, 0, 0.60);
 	min-height: 400px;
 }
 
 #testimonial-main h4 {
-	line-height: 40px;
+	line-height: 30px;
 }
 
 #testimonial-main i {
