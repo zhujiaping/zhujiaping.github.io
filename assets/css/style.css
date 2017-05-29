@@ -219,7 +219,6 @@ h1 {
 	color: rgb(255, 15, 101);
 }
 
-
 #skill-sec {
 	background: url("http://opu0pfp6c.bkt.clouddn.com/skill.jpg") no-repeat center center;
 	padding: 0;
@@ -268,7 +267,8 @@ h1 {
 /* =============================================================
   DOWNLOAD SECTION STYLES
  ============================================================ */
-#resume-sec .container{
+
+#resume-sec .container {
 	min-height: 350px;
 }
 
@@ -513,20 +513,23 @@ span.round-tabs.five {
 	min-height: 240px;
 	text-align: center;
 }
+
 #testimonial-main h2 {
 	padding: 5px;
 }
-.carousel-indicators{
+
+.carousel-indicators {
 	bottom: -20px;
 }
-#testimonial-main .item-img{
+
+#testimonial-main .item-img {
 	margin: 0 auto;
 }
 
 #testimonial-main img {
 	/*display: block;*/
 	margin: 0 auto;
-	border: 2px solid rgba(255, 15, 101,.6);
+	border: 2px solid rgba(255, 15, 101, .6);
 	margin: 5px;
 	width: 260px;
 	height: 200px;
