@@ -635,20 +635,23 @@ span.round-tabs.five {
 
 #hire-sec .overlay {
 	background: rgba(0, 0, 0, 0.80);
-	min-height: 570px;
+	/*min-height: 570px;*/
 }
 
 #hire-sec .form-control {
 	background-color: transparent;
 }
 
+#hire-sec .about p{
+	font:400 14px/20px "arial, helvetica, sans-serif";
+}
 
 /*=====================================
   FOOTER STYLES 
     ===================================*/
 
-#footer-sec h3 {
-	color: rgb(255, 15, 101);
+#footer-sec h4 {
+	color: #FFFFFF;
 }
 
 #footer-sec i {

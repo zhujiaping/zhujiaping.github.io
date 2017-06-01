@@ -1,0 +1,275 @@
+/*---------------------------------*/
+/*------------ÉèÖÃ×ÖÌå-------------*/
+/*---------------------------------*/
+@font-face {
+    font-family: 'zjp';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg#iconfontyyy') format('svg');
+}
+
+.zjp {
+    font-family: "zjp" !important;
+    font-size: 28px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.zjp-qq:before {
+    content: "\e616";
+}
+
+.zjp-weixin:before {
+    content: "\e64f";
+}
+
+.zjp-cartfill:before {
+    content: "\e659";
+}
+
+.zjp-cart:before {
+    content: "\e65a";
+}
+
+.zjp-back:before {
+    content: "\e662";
+}
+
+.zjp-comments:before {
+    content: "\e689";
+}
+
+.zjp-ascend:before {
+    content: "\e6b4";
+}
+
+.zjp-pingjia:before {
+    content: "\e612";
+}
+
+.zjp-jiaoyu01:before {
+    content: "\e657";
+}
+
+.zjp-rongyu:before {
+    content: "\e68d";
+}
+
+.zjp-github:before {
+    content: "\e60e";
+}
+
+.zjp-mingpian:before {
+    content: "\e65e";
+}
+
+.zjp-i66:before {
+    content: "\e602";
+}
+
+.zjp-xiangmujingyan:before {
+    content: "\e65b";
+}
+
+.zjp-jineng:before {
+    content: "\e72a";
+}
+
+.zjp-fanhui:before {
+    content: "\e601";
+}
+
+.zjp-gengduo:before {
+    content: "\e600";
+}
+
+body {
+    background: url("../images/soft_wallpaper.png");
+    min-width: 950px;
+    padding: 0 0 100px 0;
+    
+}
+
+/*---------------------------------*/
+/*------------sticker--------------*/
+/*---------------------------------*/
+
+.sticker {
+    width: 100%;
+    min-width: 1000px;
+    padding: 0 20px;
+    height: 55px;
+    border-bottom: 1px solid #cccccc;
+    background-color: #fff;
+    line-height: 55px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    box-shadow: 3px 3px 3px #ccc;
+    z-index: 10000;
+}
+
+.sticker .title i {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.sticker .title span {
+    display: inline-block;
+    font: 600 18px/55px "microsoft yahei";
+}
+.sticker .nav{
+    margin-right: 50px;
+}
+.sticker .nav li {
+    float: left;
+    text-align: center;
+    line-height: 55px;
+    /*background-color: #cccccc;*/
+    overflow: hidden;
+}
+
+.sticker .nav li a{
+   display: block;
+    padding: 0 15px;
+    font: 400 16px/55px "microsoft yahei";
+    color: #cccccc;
+}
+.sticker .nav li a:hover{
+    color:#3399FF;
+}
+/*---------------------------------*/
+/*------------wrapper--------------*/
+/*---------------------------------*/
+.wrapper{
+    width: 800px;
+    /*height: 100%;*/
+    margin: 55px auto auto;
+    background-color: #fff;
+    /*padding-top: 7;*/
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+}
+.wrapper .title{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+}
+.wrapper i{
+    display: block;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: -120px;
+}
+.wrapper h2{
+    display:inline-block;
+    /*position: absolute;*/
+    /*top:0;*/
+    border-left: 52px solid #444;
+    color: #444;
+    /*left: -75px;*/
+    padding-left: 25px;
+    font: 600 16px  "microsoft yahei";
+    margin-left: -75px;
+}
+.wrapper>div{
+    width: 650px;
+    margin: 0 auto;
+    padding: 15px 0;
+    position: relative;
+}
+
+.wrapper .info .intro ul li{
+    float: left;
+    display: block;
+    width: 33.3333%;
+    text-align: left;
+    font: 400 14px/25px "microsoft yahei";
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.wrapper .job .job_d p{
+    font: 400 16px/25px "microsoft yahei";
+    margin-top: 15px;
+}
+.wrapper .skill .skill_d li{
+    font: 400 16px/25px "microsoft yahei";
+    margin-top: 15px;
+}
+
+
+.wrapper .exp .exp_d div{
+    margin:0 auto;
+}
+
+.wrapper .exp .exp_d a{
+    font:600  15px/25px "microsoft yahei";
+    color:#1B6D85;
+}
+.wrapper .exp .exp_d .lonson img{
+    display: block;
+    width: 400px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.wrapper .exp .exp_d  a:hover{
+    color:#3C3C3C;
+}
+.wrapper .exp .exp_d  h3{
+	margin: 10px 0;
+	font-size: 15px;
+	color:#1B6D85;
+}
+.wrapper .exp .exp_d  p{
+	font-size:15px ;
+	font-weight:bold;
+	margin-top: 10px;
+}
+
+.wrapper .exp .exp_d .kppw{
+	margin-top: 20px;
+}
+.wrapper txt{
+	display: block;
+	font-size:16px;
+	text-indent: 2em;
+	padding: 5px 0;
+	line-height: 20px;
+}
+
+
+/*---------------------------------*/
+/*----------footer about-----------*/
+/*---------------------------------*/
+
+.about{
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 15px;
+}
+.about txt{
+	display: block;
+	font:400 15px/20px "arial, helvetica, sans-serif";
+	margin: 5px;
+}
+
+.about a{
+	font:400 15px/20px "arial, helvetica, sans-serif";
+	color:#666;
+}
+.about a:hover{
+	color:#3399FF;
+}
