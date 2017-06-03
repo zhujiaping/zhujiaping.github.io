@@ -1,18 +1,10 @@
-﻿/*====================================
-      Author: speakitnow
-      Template: MERA Personal Portfolio Template
-      Version: 1.0
-  ======================================*/
-
+﻿
 (function ($) {
     "use strict";
     var mainAppNew = {
 
         main_fun: function () {
 
-            /*=====================================
-             THEME SWITCHER SCRIPTS 
-            ===================================*/
             jQuery('#switch-panel').click(function () {
                 if (jQuery(this).hasClass('show-panel')) {
                     jQuery('.switcher').css({ 'left': '-50px' });
@@ -46,8 +38,6 @@
         }
 
     }
-    // Initializing ///
-
     $(document).ready(function () {
         mainAppNew.main_fun();
     });

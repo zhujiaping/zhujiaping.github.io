@@ -5,7 +5,9 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-
+a:hover{
+	text-decoration: none;
+}
 .pad-top {
 	padding-top: 50px;
 }
