@@ -661,6 +661,9 @@ span.round-tabs.five {
 	margin-right: 10px;
 }
 
+#footer-sec a:hover{
+	text-decoration: none;
+}
 
 /*=====================================
   SCROLLUP STYLES 
